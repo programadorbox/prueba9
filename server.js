@@ -7,6 +7,7 @@ const sequelize = require('./config/db.config');
 
 app.use(cors());
 app.use(express.json());
+// Usar rutas de usuario
 
 app.use(userRoutes);
 
